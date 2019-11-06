@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(61, 64, 67)">
     <img src="images/logo.png" alt="" class="logo">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,14 +23,14 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Жанры</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                    <a class="dropdown-item" href="#">Фантастика</a>
-                    <a class="dropdown-item" href="#">Комендия</a>
-                    <a class="dropdown-item" href="#">Экшн</a>
-                    <a class="dropdown-item" href="#">Ужасы</a>
-                    <a class="dropdown-item" href="#">Фэнтези</a>
-                    <a class="dropdown-item" href="#">Боевик</a>
-                    <a class="dropdown-item" href="#">Мелодрама</a>
-                    <a class="dropdown-item" href="#">Триллер</a>
+                    <a class="dropdown-item" href="#section1">Фантастика</a>
+                    <a class="dropdown-item" href="#section2">Комендия</a>
+                    <a class="dropdown-item" href="#section3">Экшн</a>
+                    <a class="dropdown-item" href="#section4">Ужасы</a>
+                    <a class="dropdown-item" href="#section1">Фэнтези</a>
+                    <a class="dropdown-item" href="#section2">Боевик</a>
+                    <a class="dropdown-item" href="#section3">Мелодрама</a>
+                    <a class="dropdown-item" href="#section4">Триллер</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -53,7 +54,7 @@
 </nav>
 <main>
 
- <div class="container-fluid">
+ <div class="container-fluid p-0">
      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
          <ol class="carousel-indicators">
              <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
@@ -62,25 +63,136 @@
          </ol>
          <div class="carousel-inner">
              <div class="carousel-item active">
-                 <img src="images/1.jpg" alt="" class="d-block w-100">
+                 <img src="images/terminator.jpg" alt="" class="d-block w-100">
              </div>
              <div class="carousel-item">
-                 <img src="images/2.jpg" alt="" class="d-block w-100">
+                 <img src="images/malifisenta.jpeg" alt="" class="d-block w-100">
              </div>
              <div class="carousel-item">
-                 <img src="images/3.jpg" alt="" class="d-block w-100">
+                 <img src="images/joker.jpg" alt="" class="d-block w-100">
              </div>
          </div>
-         <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
-             <span class="carusel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-         </a>
-          <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
-             <span class="carusel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-         </a>
+        
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
      </div>
  </div>
+
+   <style>
+  body {
+      position: relative; 
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <h1>жанр 1</h1>
+  <div class="row">
+  <div class="col">
+      <img src="images/poster_1.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #1</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_2.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #2</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_3.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #3</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_4.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #4</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_5.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+      <p>Описание к фильму #5</p>
+  </div>
+</div>  
+  
+</div>
+<div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+  <h1>жанр 2</h1>
+  <div class="row">
+  <div class="col">
+      <img src="images/poster_1.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #1</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_2.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #2</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_3.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #3</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_4.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #4</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_5.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+      <p>Описание к фильму #5</p>
+  </div>
+</div>
+
+<div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h1>жанр 3</h1>
+  <div class="row">
+  <div class="col">
+      <img src="images/poster_1.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #1</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_2.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #2</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_3.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #3</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_4.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #4</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_5.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+      <p>Описание к фильму #5</p>
+  </div>
+</div>
+<div id="section4" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+  <h1>жанр 4</h1>
+  <div class="row">
+  <div class="col">
+      <img src="images/poster_1.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #1</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_2.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #2</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_3.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #3</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_4.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+       <p>Описание к фильму #4</p>
+  </div>
+  <div class="col">
+      <img src="images/poster_5.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+      <p>Описание к фильму #5</p>
+  </div>
+</div>
+
+
 
 </main>
 <footer></footer>
