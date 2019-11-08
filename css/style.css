@@ -17,7 +17,7 @@
 .carousel-inner img {
   display: block;
   max-width: 100%;
-  height auto;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -45,4 +45,24 @@
 .img-custom img {
   max-width: 100%;
   height: auto;
+}
+
+.position-rl {
+  position: relative;
+}
+
+h2 {
+  color : white;
+  position  : absolute;
+  top   : 20px;
+  left    : 50px;
+  width   : 100%;
+}
+
+h3 {
+  color: white;
+  position: absolute;
+  left : 1250px;
+  top: 350px;
+  width: 100%;
 }
